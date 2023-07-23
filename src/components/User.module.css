@@ -1,0 +1,55 @@
+.user {
+  background-color: #3b3566;
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.user img {
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+} 
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background: rgb(233,30,225);
+  background: linear-gradient(90deg, rgba(233,30,225,1) 0%, rgba(0,255,226,1) 100%);
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.location svg {
+  fill: #4ed8c7;
+  font-size: 1.5rem;
+}
+
+.location span {
+  color: #9da5d1;
+  font-weight: bold;
+}
+
+.number {
+  margin-top: 0.5rem;
+  border-radius: 3px;
+  background: rgb(233,30,225);
+  background: linear-gradient(90deg, rgba(233,30,225,1) 0%, rgba(0,255,226,1) 100%);
+}
+
+.status {
+  display: flex;
+  gap: 2rem;
+}
